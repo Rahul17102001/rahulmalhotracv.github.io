@@ -24,12 +24,99 @@ h1{
 }
 h2{
     color:#66BFBF;
-    font-size:1.5rem;
+    font-size:2.2rem;
     font-weight:normal;
 }
 h3{
     color:#11999E;
+    font-size:1.3rem;
 }
 a{
     color:#11999E;
+}
+.skill-row{
+    width:50%;
+    margin:5.6em auto 3.5em auto;
+    text-align:left;
+    line-height:2;
+}
+.first-img{
+    width:15%;
+    float:left;
+    margin-right:1.9em;
+}
+.second-img{
+    width:15%;
+    float:right;
+    margin-left:0.8rem;
+}
+hr{
+    border-style:none;
+    border-top:0.45rem;
+    border-style:dotted;
+    border-color:#3affff;
+    height:0;
+    width:7%;
+    border-spacing: 0em;
+}
+p,li{
+    font-size: 1.2rem;
+}
+a{
+    margin:0.8rem;
+    font-size:1.3rem;
+}
+a:link{
+    text-decoration: none;
+}
+.BUTTON_NHD {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 0.4rem;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_NHD:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    padding:2rem;
+    margin:0;
+}
+.footer-link{
+    color:rgb(119, 255, 255);
+}
+.copyright{
+    color: #EAF6F6;
+    font-size:1.5rem;
 }
